@@ -1,0 +1,22 @@
+name       : python-fastimport
+version    : 0.9.8
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/source/f/fastimport/fastimport-0.9.8.tar.gz : b2f2e8eb97000256e1aab83d2a0a053fc7b93c3aa4f7e9b971a5703dfc5963b9
+license    : GPL-2.0-or-later
+component  : programming.python
+summary    : Fastimport parser and generator in Python
+description: |
+    This package provides a parser for and generator of the Git fastimport format
+builddeps  :
+    - python-nose
+    - python-setuptools
+build      : |
+    %python_setup
+install    : |
+    %python_install
+check      : |
+    pushd $PKG_BUILD_DIR/py2build
+        /usr/bin/nosetests-2.* fastimport
+    popd
+

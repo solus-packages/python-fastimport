@@ -1,0 +1,75 @@
+<PISI>
+    <Source>
+        <Name>python-fastimport</Name>
+        <Packager>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Fastimport parser and generator in Python</Summary>
+        <Description xml:lang="en">This package provides a parser for and generator of the Git fastimport format
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-fastimport</Name>
+        <Summary xml:lang="en">Fastimport parser and generator in Python</Summary>
+        <Description xml:lang="en">This package provides a parser for and generator of the Git fastimport format
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport-0.9.8-py2.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/commands.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/commands.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/dates.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/dates.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/errors.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/errors.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/helpers.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/helpers.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/parser.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/parser.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processors/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processors/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processors/filter_processor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processors/filter_processor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processors/info_processor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processors/info_processor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processors/query_processor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/processors/query_processor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/reftracker.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/reftracker.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_commands.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_commands.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_dates.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_dates.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_errors.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_errors.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_filter_processor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_filter_processor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_helpers.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_helpers.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_info_processor.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_info_processor.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_parser.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/fastimport/tests/test_parser.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-05-14</Date>
+            <Version>0.9.8</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+    </History>
+</PISI>
